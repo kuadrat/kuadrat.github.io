@@ -1,0 +1,653 @@
+<!DOCTYPE HTML>
+<!--
+	Dimension by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title kk-string="page.title"></title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/kustom.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+    <!-- KK Load custom scripts -->
+    <script src="scripts.js"></script>
+    <script src="strings.js"></script>
+	</head>
+<body class="is-preload">
+
+<!-- Wrapper -->
+<div id="wrapper">
+
+				<!-- Header -->
+<header id="header">
+  <div class="logo">
+  <!-- <span class="icon fa-gem"></span> -->
+    <span>
+      <a id="lang-de" class="lang-selector-inactive" href="#" onclick="updateLanguage('de');">DE</a>
+      |
+      <a id="lang-en" class="lang-selector-inactive" href="#" onclick="updateLanguage('en');">EN</a>
+    </span>
+  </div>
+  <div class="content">
+    <div class="inner">
+      <h1 kk-string="page.shorttitle"></h1>
+      <p kk-string="page.subtitle"> </p>
+    </div>
+  </div>
+  <nav>
+    <ul>
+      <li><a href="#intro" kk-string="navi.about"></a></li>
+      <li><a href="#work" kk-string="navi.cv"></a></li>
+      <li><a href="#about" kk-string="navi.docs.short"></a></li>
+      <li><a href="#contact" kk-string="navi.contact"></a></li>
+      <!--<li><a href="#elements">Elements</a></li>-->
+    </ul>
+  </nav>
+</header>
+
+<!-- Main -->
+<div id="main">
+
+<!-- Intro -->
+<article id="intro">
+ 	<h2 class="major" kk-string="navi.about.long"></h2>
+  <!-- <span class="image main"><img src="images/about.jpg" alt="" /></span> -->
+  <!-- <span class="image main"><img src="images/about.gif" alt="" /></span> -->
+  <!-- <div style="text-align: center"><img src="images/kevin_kramer_cms_crop.jpeg" alt="" width=50%/></div> -->
+  <div style="text-align: center"><img src="images/kevin_kramer_portrait_BW.jpg" alt="" width=50%/></div>
+  <div kk-string="about" style="text-align: justify"></div>
+
+<!-- Skills and interests-->
+  <h3 kk-string="skills.title"></h3>
+  <table>
+  <!--
+  <thead>
+  <tr>
+  <th>Gebiet</th>
+  <th>Function</th>
+  </tr>
+  </thead>
+  -->
+    <tbody>
+     <script>
+      let skills = ['physics', 'ai', 'it', 'technical', 'teaching', 'languages'];
+      for (let i=0; i<skills.length; i++) {
+        // Name
+        let line = '<tr>'
+        line += '<td kk-string="skills.';
+        line += skills[i] + '.title"></td>';
+        // Description
+        line += '<td kk-string="skills.';
+        line += skills[i] + '"></td></tr>';
+        document.write(line);
+      }
+     </script>
+    </tbody>
+  </table>
+</article>
+
+
+<!-- CV -->
+<article id="work">
+ 	<h2 class="major" kk-string="navi.cv.long"></h2>
+  <p kk-string="docs.cv"></p>
+  <div class="work-wrapper">
+  <h3 kk-string="cv.edu"></h3>
+  <!-- Postdoc UZH -->
+  <div class="year-div-first">
+    <p class="year-p" kk-string="cv.edu.agroscope.time"></p><br>
+  </div>
+  <p class="work-p">
+    <span class="work-title" kk-string="cv.edu.agroscope"></span><br>
+    <span kk-string="cv.edu.agroscope.sub"></span><br>
+    <a href="https://www.agroscope.admin.ch/agroscope/de/home.html"><span kk-string="cv.edu.agroscope.place"></span></a>
+  </p>
+
+
+  <!-- Postdoc UZH -->
+  <div class="year-div">
+    <p class="year-p" kk-string="cv.edu.postdoc.time"></p><br>
+  </div>
+  <p class="work-p">
+    <span class="work-title" kk-string="cv.edu.postdoc"></span><br>
+    <span kk-string="cv.edu.postdoc.sub"></span><br>
+    <a href="https://www.physik.uzh.ch/groups/chang/"><span kk-string="cv.edu.postdoc.place"></span></a>
+  </p>
+
+  <!-- PhD -->
+  <div class="year-div">
+    <p class="year-p" kk-string="cv.edu.phd.time"></p><br>
+  </div>
+  <p class="work-p">
+    <span class="work-title" kk-string="cv.edu.phd"></span><br>
+    <span kk-string="cv.edu.phd.sub"></span><br>
+    <span kk-string="cv.edu.phd.place"></span>
+  </p>
+
+  <!-- Master -->
+  <div class="year-div">
+    <p class="year-p" kk-string="cv.edu.msc.time"></p><br>
+  </div>
+  <p class="work-p">
+    <span class="work-title" kk-string="cv.edu.msc"></span><br>
+    <span kk-string="cv.edu.msc.sub"></span><br>
+    <span kk-string="cv.edu.msc.place"></span><br>
+  </p>
+
+  <!-- CERN -->
+  <div class="year-div">
+    <p class="year-p" kk-string="cv.edu.cern.time"></p><br>
+  </div>
+  <p class="work-p">
+    <span class="work-title" kk-string="cv.edu.cern"></span><br>
+    <span kk-string="cv.edu.cern.sub"></span><br>
+    <span kk-string="cv.edu.cern.place"></span><br>
+  </p>
+
+  <!-- Bachelor -->
+  <div class="year-div">
+    <p class="year-p" kk-string="cv.edu.bsc.time"></p><br>
+  </div>
+  <p class="work-p">
+    <span class="work-title" kk-string="cv.edu.bsc"></span><br>
+    <span kk-string="cv.edu.bsc.sub"></span><br>
+    <span kk-string="cv.edu.bsc.place"></span><br>
+  </p>
+
+  <!-- Matura -->
+  <div class="year-div">
+    <p class="year-p" kk-string="cv.edu.matura.time"></p><br>
+  </div>
+  <p class="work-p">
+    <span class="work-title" kk-string="cv.edu.matura"></span><br>
+    <span kk-string="cv.edu.matura.sub"></span><br>
+    <span kk-string="cv.edu.matura.place"></span><br>
+  </p>
+  </div>
+  <div class="spacer" style="height: 5em"></div>
+
+ 	<!-- Employment history and services. -->
+  <h3 kk-string="cv.past"></h3>
+  <table>
+    <thead>
+      <tr>
+        <th kk-string=cv.past.time></th>
+        <th kk-string=cv.past.function></th>
+      </tr>
+    </thead>
+    <tbody>
+      <script>
+        let services = ['joss', 'fire', 'sustcom', 's4f', 'jrep', 'civil', 'army'];
+        for (let i=0; i<services.length; i++) {
+          // Time
+          let line = '<tr>'
+          line += '<td kk-string="cv.past.';
+          line += services[i] + '.time"></td>';
+          // Description
+          line += '<td kk-string="cv.past.';
+          line += services[i] + '"></td></tr>';
+          document.write(line);
+        }
+      </script>
+    </tbody>
+  </table>
+</article>
+
+<!-- Documents -->
+<article id="about">
+  <h2 class="major" kk-string="navi.docs"></h2>
+  <!-- images/docs.jpg
+  <span class="image main"><img src="images/paper.png" alt="" /></span>
+  a href="https://www.flaticon.com/free-icons/paper" title="paper icons">Paper icons created by Freepik - Flaticon</a>
+  -->
+  <p> 
+    ORCiD: <a taget="_blank" href="https://orcid.org/0000-0001-5523-6924">
+    <img height="16" width="16" src="https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png"/> https://orcid.org/0000-0001-5523-6924</a>
+                                 
+    <br>
+    GitHub: <a href="https://github.com/kuadrat">
+    <img height="16" width="16" src="images/github-mark-white.png"/> kuadrat</a> 
+  </p>
+  <div>
+    <table class="projects-table">
+      <tbody>
+        <tr>
+          <td>
+            <a target="_blank" href="https://github.com/kuadrat/growR">
+            <div kk-string="portfolio.growR"></div>
+            <img src="images/growR-logo.png">
+            </a>
+          </td>
+          <td kk-string="portfolio.growR.desc">
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <a target="_blank" href="https://github.com/kuadrat/data-slicer">
+            <div kk-string="portfolio.ds"></div>
+            <img src="images/PIT Demo 2.gif">
+            </a>
+          </td>
+          <td kk-string="portfolio.ds.desc">
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <div kk-string="portfolio.hpc"></div>
+            <img src="images/hpc.gif">
+          </td>
+          <td kk-string="portfolio.hpc.desc">
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <div kk-string="portfolio.cern"></div>
+            <img src="images/PET_front_view_invert.png">
+          </td>
+          <td kk-string="portfolio.cern.desc">
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <a href="documents/PhD_thesis_Kevin_Kramer_211020.pdf">
+            <div kk-string="docs.phd"></div>
+            <img src="images/phd_front_page.png">
+            </a>
+          </td>
+          <td kk-string="docs.phd.desc">
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <a href="documents/master_thesis_kevin_kramer.pdf">
+            <div kk-string="docs.msc"></div>
+            <img src="images/msc_front_page.png">
+            </a>
+          </td>
+          <td kk-string="docs.msc.desc">
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <a href="documents/bachelor_thesis_kevin_kramer.pdf">
+            <div kk-string="docs.bsc"></div>
+            <img src="images/bsc_front_page.png">
+            </a>
+          </td>
+          <td kk-string="docs.bsc.desc">
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+                           <!--
+                               <p kk-string="docs.desc"></p>
+                               <div class="table-wrapper">
+                                   <table>
+                                       <thead>
+                                           <tr>
+                                               <th>Name</th>
+                                               <th>Description</th>
+                                           </tr>
+                                       </thead>
+                                       <tbody>
+                                           <tr>
+                               <td kk-string="docs.cv"></td>
+                               <td kk-string="docs.cv.desc"></td>
+                                           </tr>
+                                           <tr>
+                               <td kk-string="docs.phd"></td>
+                               <td kk-string="docs.phd.desc"></td>
+                                           </tr>
+                                           <tr>
+                               <td kk-string="docs.msc"></td>
+                               <td kk-string="docs.msc.desc"></td>
+                                           </tr>
+                                           <tr>
+                               <td kk-string="docs.bsc"></td>
+                               <td kk-string="docs.bsc.desc"></td>
+                                           </tr>
+                                       </tbody>
+                                   </table>
+                               </div>
+                           -->
+                                       <!--
+                               <p>
+                               <span kk-string="docs.cv"></span><br>
+                               <span kk-string="docs.cv.desc"></span>
+                               </p>
+                               <p>
+                               <span kk-string="docs.phd"></span><br>
+                               <span kk-string="docs.phd.desc"></span>
+                               </p>
+                               <p>
+                               <span kk-string="docs.msc"></span><br>
+                               <span kk-string="docs.msc.desc"></span>
+                               </p>
+                               <p>
+                               <span kk-string="docs.bsc"></span><br>
+                               <span kk-string="docs.bsc.desc"></span>
+                               </p>
+                                       -->
+</article>
+
+<!-- Contact -->
+<article id="contact">
+ 	<h2 class="major" kk-string="navi.contact"></h2>
+  <p>
+    <div kk-string="contact.address"></div>
+    <div kk-string="contact.email"></div>
+  </p>
+  <h3 kk-string="contact.references"></h3>
+  <script>
+    let contacts = ['pierluigi', 'johan', 'antonio', 'werner'];
+    for (let i=0; i<contacts.length; i++) {
+      let text = '<p>';
+      let name = contacts[i];
+      text += '<div kk-string="contact.';
+      text += name + '.title"></div>';
+      text += '<div kk-string="contact.';
+      text += name + '.address"></div>';
+      text += '</p>'
+      document.write(text);
+    }
+  </script>
+  <!-- KK Just give my contact info instead of a 
+                           contact form
+ 							<form method="post" action="#">
+ 								<div class="fields">
+ 									<div class="field half">
+ 										<label for="name">Name</label>
+ 										<input type="text" name="name" id="name" />
+ 									</div>
+ 									<div class="field half">
+ 										<label for="email">Email</label>
+ 										<input type="text" name="email" id="email" />
+ 									</div>
+ 									<div class="field">
+ 										<label for="message">Message</label>
+ 										<textarea name="message" id="message" rows="4"></textarea>
+ 									</div>
+ 								</div>
+ 								<ul class="actions">
+ 									<li><input type="submit" value="Send Message" class="primary" /></li>
+ 									<li><input type="reset" value="Reset" /></li>
+ 								</ul>
+ 							</form>
+ 							<ul class="icons">
+ 								<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+ 								<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+ 								<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+ 								<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+ 							</ul>
+                       -->
+</article>
+
+ 					<!-- Elements -->
+                       <!-- KK This is for debugging/ visual testing -->
+ 						<article id="elements">
+ 							<h2 class="major">Elements</h2>
+
+ 							<section>
+ 								<h3 class="major">Text</h3>
+ 								<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
+ 								This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
+ 								This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. Finally, <a href="#">this is a link</a>.</p>
+ 								<hr />
+ 								<h2>Heading Level 2</h2>
+ 								<h3>Heading Level 3</h3>
+ 								<h4>Heading Level 4</h4>
+ 								<h5>Heading Level 5</h5>
+ 								<h6>Heading Level 6</h6>
+ 								<hr />
+ 								<h4>Blockquote</h4>
+ 								<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>
+ 								<h4>Preformatted</h4>
+ 								<pre><code>i = 0;
+
+hile (!deck.isInOrder()) {
+   print 'Iteration ' + i;
+   deck.shuffle();
+   i++;
+
+
+rint 'It took ' + i + ' iterations to sort the deck.';</code></pre>
+ 							</section>
+
+ 							<section>
+ 								<h3 class="major">Lists</h3>
+
+ 								<h4>Unordered</h4>
+ 								<ul>
+ 									<li>Dolor pulvinar etiam.</li>
+ 									<li>Sagittis adipiscing.</li>
+ 									<li>Felis enim feugiat.</li>
+ 								</ul>
+
+ 								<h4>Alternate</h4>
+ 								<ul class="alt">
+ 									<li>Dolor pulvinar etiam.</li>
+ 									<li>Sagittis adipiscing.</li>
+ 									<li>Felis enim feugiat.</li>
+ 								</ul>
+
+ 								<h4>Ordered</h4>
+ 								<ol>
+ 									<li>Dolor pulvinar etiam.</li>
+ 									<li>Etiam vel felis viverra.</li>
+ 									<li>Felis enim feugiat.</li>
+ 									<li>Dolor pulvinar etiam.</li>
+ 									<li>Etiam vel felis lorem.</li>
+ 									<li>Felis enim et feugiat.</li>
+ 								</ol>
+ 								<h4>Icons</h4>
+ 								<ul class="icons">
+ 									<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+ 									<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+ 									<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+ 									<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
+ 								</ul>
+
+ 								<h4>Actions</h4>
+ 								<ul class="actions">
+ 									<li><a href="#" class="button primary">Default</a></li>
+ 									<li><a href="#" class="button">Default</a></li>
+ 								</ul>
+ 								<ul class="actions stacked">
+ 									<li><a href="#" class="button primary">Default</a></li>
+ 									<li><a href="#" class="button">Default</a></li>
+ 								</ul>
+ 							</section>
+
+ 							<section>
+ 								<h3 class="major">Table</h3>
+ 								<h4>Default</h4>
+ 								<div class="table-wrapper">
+ 									<table>
+ 										<thead>
+ 											<tr>
+ 												<th>Name</th>
+ 												<th>Description</th>
+ 												<th>Price</th>
+ 											</tr>
+ 										</thead>
+ 										<tbody>
+ 											<tr>
+ 												<td>Item One</td>
+ 												<td>Ante turpis integer aliquet porttitor.</td>
+ 												<td>29.99</td>
+ 											</tr>
+ 											<tr>
+ 												<td>Item Two</td>
+ 												<td>Vis ac commodo adipiscing arcu aliquet.</td>
+ 												<td>19.99</td>
+ 											</tr>
+ 											<tr>
+ 												<td>Item Three</td>
+ 												<td> Morbi faucibus arcu accumsan lorem.</td>
+ 												<td>29.99</td>
+ 											</tr>
+ 											<tr>
+ 												<td>Item Four</td>
+ 												<td>Vitae integer tempus condimentum.</td>
+ 												<td>19.99</td>
+ 											</tr>
+ 											<tr>
+ 												<td>Item Five</td>
+ 												<td>Ante turpis integer aliquet porttitor.</td>
+ 												<td>29.99</td>
+ 											</tr>
+ 										</tbody>
+ 										<tfoot>
+ 											<tr>
+ 												<td colspan="2"></td>
+ 												<td>100.00</td>
+ 											</tr>
+ 										</tfoot>
+ 									</table>
+ 								</div>
+
+ 								<h4>Alternate</h4>
+ 								<div class="table-wrapper">
+ 									<table class="alt">
+ 										<thead>
+ 											<tr>
+ 												<th>Name</th>
+ 												<th>Description</th>
+ 												<th>Price</th>
+ 											</tr>
+ 										</thead>
+ 										<tbody>
+ 											<tr>
+ 												<td>Item One</td>
+ 												<td>Ante turpis integer aliquet porttitor.</td>
+ 												<td>29.99</td>
+ 											</tr>
+ 											<tr>
+ 												<td>Item Two</td>
+ 												<td>Vis ac commodo adipiscing arcu aliquet.</td>
+ 												<td>19.99</td>
+ 											</tr>
+ 											<tr>
+ 												<td>Item Three</td>
+ 												<td> Morbi faucibus arcu accumsan lorem.</td>
+ 												<td>29.99</td>
+ 											</tr>
+ 											<tr>
+ 												<td>Item Four</td>
+ 												<td>Vitae integer tempus condimentum.</td>
+ 												<td>19.99</td>
+ 											</tr>
+ 											<tr>
+ 												<td>Item Five</td>
+ 												<td>Ante turpis integer aliquet porttitor.</td>
+ 												<td>29.99</td>
+ 											</tr>
+ 										</tbody>
+ 										<tfoot>
+ 											<tr>
+ 												<td colspan="2"></td>
+ 												<td>100.00</td>
+ 											</tr>
+ 										</tfoot>
+ 									</table>
+ 								</div>
+ 							</section>
+
+ 							<section>
+ 								<h3 class="major">Buttons</h3>
+ 								<ul class="actions">
+ 									<li><a href="#" class="button primary">Primary</a></li>
+ 									<li><a href="#" class="button">Default</a></li>
+ 								</ul>
+ 								<ul class="actions">
+ 									<li><a href="#" class="button">Default</a></li>
+ 									<li><a href="#" class="button small">Small</a></li>
+ 								</ul>
+ 								<ul class="actions">
+ 									<li><a href="#" class="button primary icon solid fa-download">Icon</a></li>
+ 									<li><a href="#" class="button icon solid fa-download">Icon</a></li>
+ 								</ul>
+ 								<ul class="actions">
+ 									<li><span class="button primary disabled">Disabled</span></li>
+ 									<li><span class="button disabled">Disabled</span></li>
+ 								</ul>
+ 							</section>
+
+ 							<section>
+ 								<h3 class="major">Form</h3>
+ 								<form method="post" action="#">
+ 									<div class="fields">
+ 										<div class="field half">
+ 											<label for="demo-name">Name</label>
+ 											<input type="text" name="demo-name" id="demo-name" value="" placeholder="Jane Doe" />
+ 										</div>
+ 										<div class="field half">
+ 											<label for="demo-email">Email</label>
+ 											<input type="email" name="demo-email" id="demo-email" value="" placeholder="jane@untitled.tld" />
+ 										</div>
+ 										<div class="field">
+ 											<label for="demo-category">Category</label>
+ 											<select name="demo-category" id="demo-category">
+ 												<option value="">-</option>
+ 												<option value="1">Manufacturing</option>
+ 												<option value="1">Shipping</option>
+ 												<option value="1">Administration</option>
+ 												<option value="1">Human Resources</option>
+ 											</select>
+ 										</div>
+ 										<div class="field half">
+ 											<input type="radio" id="demo-priority-low" name="demo-priority" checked>
+ 											<label for="demo-priority-low">Low</label>
+ 										</div>
+ 										<div class="field half">
+ 											<input type="radio" id="demo-priority-high" name="demo-priority">
+ 											<label for="demo-priority-high">High</label>
+ 										</div>
+ 										<div class="field half">
+ 											<input type="checkbox" id="demo-copy" name="demo-copy">
+ 											<label for="demo-copy">Email me a copy</label>
+ 										</div>
+ 										<div class="field half">
+ 											<input type="checkbox" id="demo-human" name="demo-human" checked>
+ 											<label for="demo-human">Not a robot</label>
+ 										</div>
+ 										<div class="field">
+ 											<label for="demo-message">Message</label>
+ 											<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
+ 										</div>
+ 									</div>
+ 									<ul class="actions">
+ 										<li><input type="submit" value="Send Message" class="primary" /></li>
+ 										<li><input type="reset" value="Reset" /></li>
+ 									</ul>
+ 								</form>
+ 							</section>
+
+ 						</article>
+<!--                        KK end of visual testing article. -->
+</div>
+
+<!-- Footer -->
+<footer id="footer">
+ 	<p class="copyright">Design adapted from a template by Untitled. &copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+</footer>
+
+</div>
+
+ 	<!-- BG -->
+<div id="bg"></div>
+
+<!-- Scripts -->
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/browser.min.js"></script>
+<script src="assets/js/breakpoints.min.js"></script>
+<script src="assets/js/util.js"></script>
+<script src="assets/js/main.js"></script>
+<!-- KK string replace -->
+<script>insertKString();</script>
+</body>
+</html>

@@ -1,0 +1,101 @@
+/* 
+ * Language selector links
+ * */
+.lang-selector-active {
+    font-weight: normal;
+}
+.lang-selector-active {
+    font-weight: bold;
+}
+
+/* 
+ * CV page
+ * For displaying years in circles and corresponding elements within 
+ * horizontal lines, particularly for the CV page.
+ * */
+
+.work-wrapper {
+    text-align: center;
+}
+
+/* Vertical connecting lines. The height needs to correspond to the margins 
+ * of the above element. */
+.work-wrapper .work-p:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: calc(-1.0rem - 1px);
+    left: calc(50% - 1px);
+    width: 1px;
+    height: calc(1.0rem + 1px);
+    background: #ffffff;
+}
+
+.work-wrapper .year-div:before {
+    content: '';
+    display: block;
+    position: relative;
+    top: 0;
+    left: calc(50% - 1px);
+    width: 1px;
+    height: calc(4rem + 1px);
+    background: #ffffff;
+}
+
+.work-wrapper .work-p {
+    border-style: solid;
+    border-color: #ffffff;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    margin-top: calc(1.0rem + 1px);
+    width: 70%;
+    position: relative;
+    left:15%;
+    margin-bottom: 0px;
+}
+
+.work-wrapper .year-div-first{
+    display: grid;
+    justify-content: center;
+
+}
+
+.work-wrapper .year-div {
+    display: grid;
+    justify-content: center;
+
+}
+
+.work-wrapper .year-p {
+    width: 7rem;
+    height: 7rem;
+    line-height: 7rem;
+    border: solid 1px #ffffff;
+    border-radius: 100%;
+    margin: 0px;
+}
+
+.work-wrapper .work-title {
+    font-weight: bold;
+}
+
+table.projects-table tbody tr {
+    background-color: inherit;
+    border: 0px;
+}
+
+table.projects-table tbody tr td {
+    text-align: left;
+    vertical-align: middle;
+}
+
+table.projects-table tbody tr td:first-child {
+    text-align: center;
+    width: 30%;
+    font-weight: bold;
+}
+
+table.projects-table tbody tr td img {
+    width: 100%;
+    padding-top: 1em;
+}
