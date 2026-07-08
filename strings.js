@@ -32,7 +32,7 @@ var STRINGS_EN = {
     "portfolio.hpc": "Hydrodynamic Simulation",
     "portfolio.hpc.desc": "A project carried out within the High Performance Computing course at UZH. The goal was to implement the hydrodynamic Navier-Stokes equations and employ parallelization to simulate a relatively large system on a supercomputing cluster at the Swiss center for scientific computing (CSCS). The code was implemented in C++ and the Message Passing Interface (MPI) was used for the parallelization.",
     "portfolio.cern": "PET Simulations",
-    "portfolio.cern.desc": "The simulation tools Geant4 and GATE were used to experiment with novel ideas for positron-emission tomography geometries. This was done in the framework of the <a href=\"https://dissertori-group.ethz.ch/research/detector-rd-and-applications-in-biomedical-imaging/safir.html" target=\"_blank\">SAFIR project</a>. Additional studies were undertaken with python.",
+    "portfolio.cern.desc": "The simulation tools Geant4 and GATE were used to experiment with novel ideas for positron-emission tomography geometries. This was done in the framework of the <a href=\"https://dissertori-group.ethz.ch/research/detector-rd-and-applications-in-biomedical-imaging/safir.html\" target=\"_blank\">SAFIR project</a>. Additional studies were undertaken with python.",
     //
     "contact.address": "Kevin Kramer<br>Physik Institut<br>Universität Zürich<br>Winterthurerstrasse 190<br>8057 Zürich",
    //"contact.address": "Kevin Kramer<br>Yumo-Park 12<br> 5415 Nussbaumen",
@@ -142,7 +142,7 @@ var STRINGS_DE = {
     "portfolio.hpc": "Hydrodynamische Simulation",
     "portfolio.hpc.desc": "Ein Projekt das im Rahmen des Kurses 'High Performance Computing' an der UZH durchgeführt wurde. Ziel war es, die hydrodynamischen Navier-Stokes Gleichungen zu implementieren und mittels Parallelisierung auf einem Supercomputer des Schweizerischen Zentrums für wissenschaftliche Berechnungen (CSCS) durchzurechnen. Der Code wurde in C++ geschrieben und mit dem Message Passing Interface (MPI) parallelisiert.",
     "portfolio.cern": "PET Simulationen",
-    "portfolio.cern.desc": "Die Simuliertools Geant4 und GATE wurden eingesetzt um mit neuen Ideen für Geometrien eines Positrons-Emissions Tomographen zu experimentieren. Dies wurde im Rahmen des<a href=\"https://dissertori-group.ethz.ch/research/detector-rd-and-applications-in-biomedical-imaging/safir.html" target=\"_blank\">SAFIR Projekts</a> am CERN und mit der ETHZ durchgeführt. Zusätzliche Studien wurden in python angelegt.",
+    "portfolio.cern.desc": "Die Simuliertools Geant4 und GATE wurden eingesetzt um mit neuen Ideen für Geometrien eines Positrons-Emissions Tomographen zu experimentieren. Dies wurde im Rahmen des<a href=\"https://dissertori-group.ethz.ch/research/detector-rd-and-applications-in-biomedical-imaging/safir.html\" target=\"_blank\">SAFIR Projekts</a> am CERN und mit der ETHZ durchgeführt. Zusätzliche Studien wurden in python angelegt.",
     //
     "contact.address": "Kevin Kramer<br>Physik Institut<br>Universität Zürich<br>Winterthurerstrasse 190<br>8057 Zürich",
    //"contact.address": "Kevin Kramer<br>Yumo-Park 12<br> 5415 Nussbaumen",
